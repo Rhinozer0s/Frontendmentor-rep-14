@@ -1,0 +1,63 @@
+@media screen and (max-width: 45em) {
+  .wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .imgbg {
+    width: 100%;
+    display: block;
+  }
+  .article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.7rem;
+    padding: 0 1.5rem 2.5rem 1.5rem;
+  }
+  .h1 {
+    font-size: 2.5rem;
+  }
+  .ul {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 1rem;
+    list-style: none;
+  }
+  .ul_li {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+  }
+  .inputdiv {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+  }
+  .label {
+    font-size: 0.8rem;
+  }
+  .wrapperSuccess {
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    row-gap: 18rem;
+    padding: 0 1.5rem 2.5rem 1.5rem;
+  }
+  .wrapperSuccess_div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .wrapperSuccess_div .h2 {
+    font-size: 2.5rem;
+  }
+  .wrapperSuccess_div .phrase {
+    line-height: 1.5;
+  }
+  .wrapperSuccess_div_img {
+    max-width: 4rem;
+  }
+}
+
+/*# sourceMappingURL=mobilestyle.css.map */

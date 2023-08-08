@@ -1,0 +1,90 @@
+@import 'vars.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+html{
+    font-size: 16px;
+}
+body{
+    min-height: 100vh;
+}
+.h1,
+.h2,
+.label{
+    font-family: $font;
+    font-weight: 700;
+}
+
+#labelEmail{
+    color: $secondaryColor;
+}
+
+#labelError{
+    color: rgb(236, 62, 62);
+}
+
+.phrase,
+.list{
+    font-family: $font;
+    font-weight: 400;
+    color: $secondaryColor;
+}
+
+#email{
+    width: 100%;
+    padding: 1.1em 1.5rem;
+    border: 1px solid $light;
+    border-radius: 0.5em;
+    font-size: 1rem;
+    color: $secondaryColor; 
+    background-color: #fff;
+    outline: 0;
+    cursor: pointer;
+    
+    &::placeholder{
+        font-size: 1rem;
+        font-family: $font;
+        color: $light;
+    }
+
+    &:focus{
+        border: 1px solid black;
+    }
+}
+
+.labeldiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 100%;
+    padding: 1.1em;
+    border: 1px solid $secondaryColor;
+    border-radius: 0.5em;
+    background-color: $secondaryColor;
+    font-size: 1rem;
+    font-family: $font;
+    font-weight: 700;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: all ease-in-out 150ms;
+
+    &:hover{
+        background: $primaryColor;
+        border: 1px solid $primaryColor;
+    }
+}
+
+.wrapperSuccess{
+    display: none;
+}
